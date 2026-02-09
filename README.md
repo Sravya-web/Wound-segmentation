@@ -24,18 +24,16 @@ I implemented and compared U-Net and Attention U-Net architectures for pixel-wis
 
  Dataset
 - Images: Right top view of foot with wound  
-- Annotation: Binary masks (wound vs background)  
-- Annotation Tool: Label Studio  
+- Annotation: Binary masks (wound vs background)   
 
 ---
 
  Workflow
-1. Data collection  
-2. Image annotation (Label Studio)  
-3. Preprocessing (resize, normalization)  
-4. Train U-Net & Attention U-Net  
-5. Evaluate using Dice Coefficient  
-6. Visualize predictions using mask overlays  
+1. Data collection   
+2. Preprocessing (resize, normalization)  
+3. Train U-Net & Attention U-Net  
+4. Evaluate using Dice Coefficient  
+5. Visualize predictions using mask overlays  
 
 ---
 
@@ -56,8 +54,7 @@ Used to measure overlap between predicted mask and ground truth.
 - TensorFlow / PyTorch  
 - OpenCV  
 - NumPy  
-- Matplotlib  
-- Label Studio
+- Matplotlib 
 
 ---
 
